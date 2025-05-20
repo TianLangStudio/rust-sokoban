@@ -15,5 +15,17 @@ var _hmt = _hmt || [];
               hm.src = "https://hm.baidu.com/hm.js?5a990c2b8047428b734d3a86ee9e881f";
               var s = document.getElementsByTagName("script")[0];
               s.parentNode.insertBefore(hm, s);
+
+
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-JZ81SEB2BH');
+
+              var gg  = document.createElement("script");
+              gg.src = "https://www.googletagmanager.com/gtag/js?id=G-JZ81SEB2BH";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(gg, s)
+
 })();
 
